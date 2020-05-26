@@ -1,0 +1,211 @@
+insert into customers values('harsha','harsha@gmail.com','9442200461',0,'Male','harsha','9492056849');
+insert into customers values('ammu','ammu@gmail.com','9293726849',0,'Female','ammu','9550259189');
+insert into customers values('Prithve','prithve@gmail.com','9876543210',0,'Male','prithve','9998887776');
+
+insert into categories values(1,'Fashion');
+insert into categories values(2,'Home');
+insert into categories values(3,'Essentials');
+insert into categories values(4,'Electronics');
+insert into categories values(5,'Games');
+insert into categories values(6,'Books');
+
+insert into s_category values(1,'Clothes',1);
+insert into s_category values(2,'Footwear',1);
+insert into s_category values(3,'Accessories',1);
+insert into s_category values(4,'Furniture',2);
+insert into s_category values(5,'Decor',2);
+insert into s_category values(6,'Kitchen',2);
+insert into s_category values(7,'Lights',2);
+insert into s_category values(8,'Masks',3);
+insert into s_category values(9,'Baby Care',3);
+insert into s_category values(10,'SkinCare',3);
+insert into s_category values(11,'HairCare',3);
+insert into s_category values(12,'Mobiles',4);
+insert into s_category values(13,'Tv',4);
+insert into s_category values(14,'Laptop',4);
+insert into s_category values(15,'Cameras',4);
+insert into s_category values(16,'Card Games',5);
+insert into s_category values(17,'Board Games',5);
+insert into s_category values(18,'Electronic Games',5);
+insert into s_category values(19,'General Knowledge',6);
+insert into s_category values(20,'Fiction',6);
+insert into s_category values(21,'Self help',6);
+insert into s_category values(22,'Juvenile Fiction',6);
+insert into s_category values(23,'Classics',6);
+
+insert into merchants values('harsha98','sriharsha@gmail.com','9177424002','Male',0,0,'Harsha','7789654120',4);
+insert into merchants values('vamsi586','vamsi586@gmail.com','8360835202','Male',0,0,'Vamsi','9056373247',5);
+insert into merchants values('hitesh12','hitesh12@gmail.com','7354835202','Male',0,0,'Hitesh Varma','798456247',3);
+insert into merchants values('pravallika34','pravallika34@gmail.com','8798654812','Female',0,0,'Pravallika','9878456587',4);
+
+
+insert into products values(1001,5,0,10,243,1,'DUENITE','1001.jpg','This Casual Kurtha has a ;- Standard collar,;- full-sleeves with button coffs,;- Pair this along with a good pair of denim and loafers for a Sharp and Dapper look.;~ Material: 100% Premium Cotton;~ Washcare: Machine Wash/Hand Wash','Men Solid Cotton Blend KURTHA DPY12',696.0,4,'harsha98',1);
+
+insert into products values(1002,0,0,5,200,1,'PUMA','1002.jpg','This is a Red Cotton Blended hooded neck sweatshirt.;- It is a casual full-sleeve sweatshirt which is not reversible.;~ It includes 3 months warranty.','Printed Men Sweat-shirt 842211',1435.0,3,'harsha98',1);
+
+insert into products values(1003,0,0,7,100,1,'DUCATI','1003.jpg','This is a Cotton Blended hooded neck sweatshirt.; It is a casual full-sleeve sweatshirt which is not reversible.;~ Dry in shade ;~ Do not Bleach','Printed Men Sweat-shirt 842211',1435.0,3,'harsha98',1);
+
+insert into products values(1004,10,1,3,150,1,'REEBOK','1004.jpg','Polo neck T-Shirt','Polo Men Neck White T-shirt',799.0,5,'harsha98',1);
+
+insert into products values(1005,10,0,6,120,1,'Duke','1005.jpg','Duke Stardust Men Black Mix Coloured Lower; ~ Made From Cotton Blend','Solid Men Black Track Pants',836.0,4,'vamsi586',1);
+
+insert into products values(1006,20,0,2,50,1,'Kedar Fab','1006.jpg','Embroidered, Embellished Poly Silk Semi Stitched Anarkali Gown; ~ Siddeshwary Fab Provided Best Quality','Anarkali Gown',1199.0,2,'vamsi586',1);
+
+insert into products values(1007,10,0,10,70,1,'STELLAR HOME','1007.jpg','Bedroom Double Size Fleece Blankets','Solid Double Fleece Blanket',999.0,3,'hitesh12',5);
+
+insert into products values(1008,0,1,12,40,1,'Mini Klub','1008.jpg','Mini Klub Baby Boys Sleepsuit','Baby Boys Sleepsuit',550.0,3,'vamsi586',1);
+
+insert into products values(1009,0,1,7,210,1,'Puma','1009.jpg','With a sleek, contemporary upper, the NRGY Comet adds style to the traditional lightweight runner; Flexible, breathable and with a supportive midsole providing superior energy return;','NRGY Comet Running Shoes For Men',2249.0,4,'vamsi586',2);
+
+insert into products values(1010,5,0,8,180,1,'Nike','1010.jpg','Nike Fly;By Mid Basketball Shoe GRITTY GAME; Players who go all out, every play, in every game deserve something special for their effort','Fly.By Mid Basketball Shoes For Men',3369.0,2,'vamsi586',2);
+
+insert into products values(1011,15,1,12,120,1,'Red Tape','1011.jpg','~900 g (per single Shoe) ; Weight of the product may vary depending on size','Boots For Men',2459.0,3,'hitesh12',2);
+
+insert into products values(1012,15,1,6,100,1,'Red Tape','1012.jpg','Pamper your feet and flaunt a new relaxed summery look wearing these black coloured floaters from Red Tape','Men Black Casual Sandal',2396.0,4,'hitesh12',2);
+
+insert into products values(1013,15,0,9,105,1,'Beauty Queen','1013.jpg','A Footwear portrait your personality; Beauty Queen present the new range of elegant footwear which is durable and comfortable','Women Red Heels Sandal',599.0,2,'harsha98',2);
+
+insert into products values(1014,15,1,20,15,1,'Hooh','1014.jpg','Can be wearable as daily wear or occasional wear., Both winter and summer wear','Sling Back Clogs For Boys',279.0,1,'harsha98',2);
+
+insert into products values(1015,25,1,6,222,1,'Oppo','1015.jpg','Say goodbye to shaky selfies and blurry photos with this Oppo Reno2 smartphone; ~Featuring a 48-MP quad-camera system, along with the portrait mode, night mode, beauty mode, and wide-angle mode; This lets you click stunning shots just the way you want','OPPO Reno2 F',17990.0,4,'vamsi586',12);
+
+insert into products values(1016,25,0,8,293,1,'Samsung','1016.jpg','This Samsung phone comes with the Knox Guard facility; Smooth and wonderfull display can be expected','Samsung Galaxy A51',25250.0,4,'harsha98',12);
+
+insert into products values(1017,25,0,12,203,1,'Honor','1017.jpg','Brand Warranty of 1 Year Available for Mobile, 6 Months for Battery, 3 Months for Adapter and Data Cable','Honor 20',22999.0,3,'harsha98',12);
+
+insert into products values(1018,25,0,11,279,1,'Asus','1018.jpg','LED Backlit Panel; Brightness: 500 nits; Gorilla Glass 6; AS Coating; 19.5:9 Aspect Ratio; Wide Active Matrix; NTSC 95%, IPS In-cell; 91% Screen to Body Ratio; Touch Performance Minimun Requirement: 60ms Response Time','Asus 6Z',27999.0,3,'harsha98',12);
+
+insert into products values(1019,25,0,27,223,1,'MI','1019.jpg','It comes with Full HD display, which can take your movie or TV watching experience a notch higher by letting you enjoy the various details in stunning and rich quality','Mi 4A 100 cm',17999.0,3,'hitesh12',12);
+
+insert into products values(1020,25,0,24,203,1,'Samsung','1020.jpg','Direct Cool Single Door 4 Star (2020) Refrigerator with Base Drawer; ~Base Stand with Drawer : For storing items that dont need cooling','Samsung 192 L',15990.0,4,'hitesh12',6);
+
+insert into products values(1022,10,0,22,21,1,'Milton','1022.jpg','~Perfect piece of choice if you are looking for glass tiffin containers','Air Tight Glass Containers Lunch Box',679.0,5,'pravallika34',6);
+
+insert into products values(1023,25,1,60,124,1,'Philips','1023.jpg','can be used at; study table; lamp; batten holder; rooms; bathroom','Philips 9 W Standard B22 LED Bulb',534.0,4,'pravallika34',7);
+
+insert into products values(1024,12,1,40,154,1,'Milton','1024.jpg','This Product is under ;~One year warranty from the date of retail purchase against any manufacturing defects in material and workmanship','Milton duo dlx bottles 1000 ml Bottle',865.0,5,'pravallika34',6);
+
+insert into products values(1025,25,1,42,149,1,'Adi Creations','1025.jpg','~Good quality product;ADI CREATIONS BEAST Body Building Domble Symbol on solid red Ceramic Mug','Ceramic Mug',260.0,4,'pravallika34',6);
+
+insert into products values(1026,20,0,25,256,1,'Fieesta','1026.jpg','The First Important Thing About Every Fieesta Clock Is The Attention Given To Design, Functionality And Superb Quality','Fieesta President6007 Black&Silver Designer Pedulum Analog 56 cm X 22 cm Wall Clock',389.0,4,'pravallika34',5);
+
+insert into products values(1027,21,0,5,254,1,'GrabBasket','1027.jpg','We brings a Designer Ganesha Decorative wall clock for you;This wall clock is a Unique design to decorate your wall offer a superlative way to place time on the wall','GrabBasket Analog 44 cm X 33 cm Wall Clock',599.0,5,'pravallika34',5);
+
+insert into products values(1028,25,0,12,214,1,'Heeran Art','1028.jpg','~Buddha : One word that brings peace; better than thousand hollow words','Heeran Art Vastu Fangshui Religious Idol of Lord Gautama Buddha Statue Decorative Showpiece - 24 cm',260.0,4,'pravallika34',5);
+
+insert into products values(1029,20,0,25,153,1,'DreamKraft','1029.jpg','DreamKraft brings you the traditional art of Indian artists by offering you the most beautiful brass handicraft products made by the rural artists of India','DreamKraft Brass Vintage Dummy Gramophone Showpiece For Home Decor Brass, Wooden Gramophone',399.0,3,'pravallika34',5);
+
+insert into products values(1030,30,0,35,124,1,'Arihant','1030.jpg','Content is quite good and index of presenting content is nice','General Knowledge 2021',260.0,4,'hitesh12',19);
+
+insert into products values(1031,20,0,60,104,1,'Hodder & Stoughton','1031.jpg','A young girl unleashes her newfound psychic abilities in an attempt to exact revenge on those who humiliated her for her social awkwardness','Carrie',299.0,4,'hitesh12',20);
+
+insert into products values(1032,25,1,9,165,1,'Penguin Random House India','1032.jpg','Ruskin Bond once famously reed that while he does not believe in ghosts, he sees them all the time—in the woods, in a bar, in a crowd outside a cinema','Face In Dark And Other Haunting',162.0,3,'hitesh12',20);
+
+insert into products values(1033,20,1,25,56,1,'Hodder & Stoughton General Division','1033.jpg','Hardly anyone gets it right the first time, but many of us are crippled by indecision and fear of failure','Start Now. Get Perfect Later.',359.0,4,'hitesh12',21);
+
+
+
+
+
+insert into products values(1035,0,0,56,101,1,'Om','1035.jpg','Om Books International','Pinocchio',87.0,4,'hitesh12',22);
+
+insert into products values(1036,10,1,66,111,1,'Mahalakshmi Posters','1036.jpg','~Mahalaxmi is a one-stop shop for your wall shopping; Providing you the designs right out of the creative heads and printing them on special imported paper makes mahalaxmi different from the rest','One Direction Harry Poster PHAB113 jpg Wall Poster Print on Art Paper 13x19 Inches Paper Print',187.0,4,'vamsi586',5);
+
+insert into products values(1037,10,1,90,121,1,'HS Creations','1037.jpg','Poster Size (18" x 12" x 0.1"). Paper Print  (18 inch X 12 inch)','Famous Linkin Park Poster Size',149.0,4,'vamsi586',5);
+
+insert into products values(1038,10,1,80,321,1,'H&M','1038.jpg','Shopper in imitation leather with details in real suede; Two handles at the top and concealed ties inside the short sides.','Women Black Suede-Detail Shopper',3999.0,5,'pravallika34',3);
+
+insert into products values(1039,12,1,70,132,1,'ALDO','1039.jpg','Black printed satchel with applique detail, has a button closure; 1 main compartment, 1 external and 3 inner pockets; One handle with a detachable sling strap','ALDO Black Printed Satchel',6899.0,5,'pravallika34',3);
+
+insert into products values(1040,25,1,45,200,1,'MANGO','1040.jpg','Set of two choker necklaces; Black and silver-toned choker necklace, secured with a lobster closure; Black lace choker necklace, secured with a lobster closure','MANGO Women Set of 2 Black & Silver-Toned Choker Necklaces',1390.0,5,'pravallika34',3);
+
+insert into products values(1041,25,1,89,67,1,'Chumbak','1041.jpg','Off-white 925 sterling silver rhodium-plated circular drop earrings; has artificial stones and beads;Secured with a post and back closure','Carlton London Off-White Rhodium-Plated 925 Sterling Silver Beaded Circular Drop Earrings',1598.0,4,'pravallika34',3);
+
+insert into products values(1042,15,1,90,212,1,'Impulse','1042.jpg','Pack of 3 Reusable 4-Layer I95 Outdoor Masks','Adults Black Pack of 3 Reusable 4-Layer I95 Outdoor Masks',359.0,4,'hitesh12',8);
+
+insert into products values(1043,26,1,68,311,1,'Kook N Keech','1043.jpg','Pack of 3 Reusable 3-Layer Outdoor Masks','Adults Black Pack of 3 Reusable 3-Layer Protective Outdoor Masks',399.0,4,'hitesh12',8);
+
+insert into products values(1044,20,1,45,189,1,'Mamaearth','1044.jpg','Daily Moisturizing Body Lotion','Kids Daily Moisturizing Body Lotion 400 ml',399.0,5,'pravallika34',9);
+
+insert into products values(1045,12,1,90,143,1,'The Moms Co.','1045.jpg','The Moms Co. Natural Baby Shampoo (200 ml)','Natural Baby Shampoo 200 ml',393.0,5,'pravallika34',9);
+
+insert into products values(1046,20,1,87,221,1,'THE BODY SHOP','1046.jpg','Guarana & Coffee Energising Moisturiser for Men 100 ml','Men Guarana And Coffee Energising Moisturiser 100 ml',1495.0,5,'pravallika34',10);
+
+insert into products values(1047,20,1,56,122,1,'MAMAEARTH','1047.jpg','SPF 50 Indian sunscreen;For All skin types;Paraben-free','Unisex Ultra-Light SPF 50 Indian Sunscreen 80 ml',499.0,5,'pravallika34',10);
+
+insert into products values(1048,15,1,78,134,1,'Kaya Skin Clinic','1048.jpg','Helps with up to 100% visible flake reduction; Enriched with piroctone olamine, marine algae extracts, and salicylic acid; Helps you get a healthier scalp and beautiful hair','Dandruff Control Gentle Purifying Shampoo 225 ml',490.0,4,'pravallika34',11);
+
+insert into products values(1049,0,1,80,201,1,'Khadi Natural','1049.jpg','It deeply conditions your hair.; It makes your hair look healthy and bouncy.; It is a 100% natural product.','Unisex Shikakai and Honey Herbal Hair Conditioner 210 ml',235.0,4,'pravallika34',11);
+
+insert into products values(1050,10,1,45,121,1,'LG','1050.jpg','Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube; Operating System: WebOS; Resolution: Full HD 1920 x 1080 Pixels','All-in-One 108cm (43 inch) Full HD LED Smart TV',28999.0,5,'vamsi586',13);
+
+
+insert into products values(1051,10,1,40,142,1,'Samsung','1051.jpg','You can now turn this Samsung Smart TV into a full-fledged PC; or your very own virtual music system.; With features such as Live Cast and Screen Mirroring,; you can have some good times with your family right at home','Samsung Series 4 80cm (32 inch) HD Ready LED Smart TV',13999.0,5,'vamsi586',13);
+
+insert into products values(1052,15,1,59,156,1,'Nikon','1052.jpg','1 Camera, Lens with 16 GB memory card and Carry Case,; AN-DC3 Strap, DK-25 Rubber Eyecup (Comes Attached to Camera),; BF-1B Body Cap, EN-EL14a Rechargeable Li-ion Battery (With Terminal Cover),; MH-24 Battery Charger','D3500 DSLR Camera AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR',28990.0,5,'vamsi586',15);
+
+insert into products values(1053,10,1,34,100,1,'ASUS','1053.jpg','Bring home this ASUS Strix G laptop which boasts of GeForce GTX 1050 graphics for immersive video experience;. It also comes packed with the 9th gen Intel Core i5-9300H processor along with 8 GB of DDR4-2666 RAM ;which gives you a seamless gaming experience.','Asus ROG Strix G Core i5 9th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1050) G531GD-BQ036T Gaming Laptop (15.6 inch, Black, 2.4 kg)',52990.0,5,'vamsi586',14);
+
+insert into products values(1054,0,1,67,135,1,'Fingerprint! Publishing','1054.jpg','When Elizabeth Bennet meets Fitzwilliam Darcy for the first time at a ball,; she writes him off as an arrogant and obnoxious man. He not only acts like an insufferable snob,; but she also overhears him rejecting the very idea of asking her for a dance','Pride and Prejudice Paperback',85.0,5,'hitesh12',23);
+
+insert into products values(1055,0,1,76,145,1,'Fingerprint! Publishing','1055.jpg','In this epic story of love, envy, betrayal and revenge, Heathcliff and Catherine come together; in a romance that destroys them and those around them.; Set in the lonely and bleak Yorkshire moors, this classic tale of ;thwarted passion begins when the new tenant of Thrushcross Grange,; a Mr Lockwood, is forced to seek shelter for a night at Wuthering Heights.; As the night passes, Lockwood learns of the tumultuous past of; Wuthering Heights and of those connected with it.','Wuthering Heights Paperback',89.0,5,'hitesh12',23);
+
+
+
+
+
+
+
+insert into user_master values('harsha98',null,'Merchant',null,null);
+insert into user_master values('hitesh12',null,'Merchant',null,null);
+insert into user_master values('admin1',null,'Admin',null,null);
+insert into user_master values('admin2',null,'Admin',null,null);
+insert into user_master values('admin3',null,'Admin',null,null);
+
+
+insert into coupons values('first 3',50,'for first three transactions',TO_TIMESTAMP('2021-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),
+TO_TIMESTAMP('2020-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),1,'Admin',500, 'admin1');
+
+ insert into coupons values('srk',50,'for first three transactions',TO_TIMESTAMP('2021-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),
+TO_TIMESTAMP('2020-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),1,'Admin',500, 'admin2');
+
+ insert into coupons values('harsha',50,'for first three transactions',TO_TIMESTAMP('2021-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),
+TO_TIMESTAMP('2020-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),1,'Admin',500, 'admin3');
+
+
+insert into coupons values('harshaCoupon',50,'for first three transactions',TO_TIMESTAMP('2021-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),
+TO_TIMESTAMP('2020-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),1,'Merchant',500, 'harsha98');
+
+
+insert into coupons values('hiteshCoupon',50,'for first three transactions',TO_TIMESTAMP('2021-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),
+TO_TIMESTAMP('2020-01-01 06:14:00', 'YYYY-MM-DD HH24:MI:SS'),1,'Merchant',500, 'hitesh12');
+ 
+
+
+
+
+insert into product_feedbacks values(1,'Very Nice one','Goood',4,'harsha','1001');
+insert into product_feedbacks values(2,'OK, worth for money','Average',3,'Prithve','1001');
+insert into product_feedbacks values(3,'Bad Product..quality is not good','Bad',1,'ammu','1001');
+insert into product_feedbacks values(13,'Very Nice one','Goood',4,'harsha','1001');
+insert into product_feedbacks values(14,'OK, worth for money','Average',3,'Prithve','1001');
+insert into product_feedbacks values(15,'Bad Product..quality is not good','Bad',1,'ammu','1001');
+insert into product_feedbacks values(16,'Very Nice one','Goood',4,'harsha','1001');
+insert into product_feedbacks values(17,'OK, worth for money','Average',3,'Prithve','1001');
+insert into product_feedbacks values(18,'Bad Product..quality is not good','Bad',1,'ammu','1001');
+
+insert into product_feedbacks values(4,'Very Nice one','Goood',4,'harsha','1002');
+insert into product_feedbacks values(5,'OK, worth for money','Average',3,'ammu','1002');
+insert into product_feedbacks values(6,'Bad Product..quality is not good','Bad',1,'Prithve','1002');
+
+insert into product_feedbacks values(7,'Very Nice one','Goood',4,'Prithve','1003');
+insert into product_feedbacks values(8,'OK, worth for money','Average',3,'harsha','1003');
+insert into product_feedbacks values(9,'Bad Product..quality is not good','Bad',1,'ammu','1003');
+
+insert into product_feedbacks values(10,'Very Nice one','Goood',4,'ammu','1004');
+insert into product_feedbacks values(11,'OK, worth for money','Average',3,'Prithve','1004');
+insert into product_feedbacks values(12,'Bad Product..quality is not good','Bad',1,'harsha','1005');
+
+
+
+
